@@ -1,0 +1,79 @@
+.navBar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+    width: 500px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.centerContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: normal;
+    text-align: center;
+    font-family: sans-serif;
+}
+.button{
+    margin-top: 20px;
+    font-Weight: 400;
+    row-gap: 2px;
+}
+
+.footerContent{
+    text-align: start;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.audio{
+    margin-top: 60px;
+    background-color:#17171E ;
+    height: 100vh;
+}
+
+.selector {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #fff;
+    cursor: ew-resize;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .start-selector {
+    background-color: red; /* You can change the color */
+  }
+  
+  .end-selector {
+    background-color: blue; /* You can change the color */
+  }
+  
+/* Specific to the main container (example: main div or content wrapper) */
+.main-container {
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  /* Scrollbar hiding for specific div */
+  .main-container::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  .main-container {
+    scrollbar-width: none;
+  }
+  
